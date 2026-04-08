@@ -1,5 +1,9 @@
 # Weight Dial Picker
 
+![Pub Version](https://img.shields.io/pub/v/weight_dial_picker)
+![License](https://img.shields.io/github/license/mithleshgurjar11/weight_dial_picker)
+![Stars](https://img.shields.io/github/stars/mithleshgurjar11/weight_dial_picker)
+
 A beautiful and customizable weight picker with kg/lb support.
 
 ---
@@ -48,46 +52,31 @@ WeightDialPicker(
 
 ## 📦 Installation
 
-Add this to your `pubspec.yaml`:
-
 ```yaml
 dependencies:
   weight_dial_picker: ^0.0.2
 ```
 
-Then run:
+---
+
+## 🌐 GitHub Repository
+
+👉 Source Code:
+https://github.com/mithleshgurjar11/weight_dial_picker
+
+---
+
+## 📥 Clone Project
 
 ```bash
-flutter pub get
+git clone https://github.com/mithleshgurjar11/weight_dial_picker.git
 ```
 
 ---
 
-## ⚙️ Parameters
+## 🤝 Contributing
 
-| Parameter     | Type     | Default  | Description                 |
-| ------------- | -------- | -------- | --------------------------- |
-| minWeight     | double   | 20       | Minimum weight              |
-| maxWeight     | double   | 200      | Maximum weight              |
-| unit          | String   | 'kg'     | Default unit                |
-| initialWeight | double?  | null     | Initial selected value      |
-| onChanged     | Function | required | Callback when value changes |
-
----
-
-## 💡 Example
-
-```dart
-WeightDialPicker(
-  minWeight: 30,
-  maxWeight: 150,
-  unit: 'lb',
-  initialWeight: 80,
-  onChanged: (value, unit) {
-    print("Selected: $value $unit");
-  },
-)
-```
+Pull requests are welcome. For major changes, please open an issue first.
 
 ---
 

@@ -1,9 +1,7 @@
 library weight_dial_picker;
-
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:weight_dial_picker/src/dial_painter.dart';
-import 'package:weight_dial_picker/src/progress_button.dart';
 
 
 class WeightDialPicker extends StatefulWidget {
