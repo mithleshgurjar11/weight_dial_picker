@@ -1,4 +1,4 @@
-## 0.0.2
+## 0.0.4
 
 * Added initialWeight support
 * Improved UI and dial interaction

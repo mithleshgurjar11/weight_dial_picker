@@ -1,6 +1,6 @@
 name: weight_dial_picker
 description: A customizable weight dial picker with kg/lb support
-version: 0.0.2
+version: 0.0.4
 homepage: https://github.com/yourusername/weight_dial_picker
 
 environment:
